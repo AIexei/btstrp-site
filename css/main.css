@@ -41,6 +41,7 @@ body {
 .top_links { /* разобраться со свойствами класса */
 	display: inline-block;
 	vertical-align: middle;
+	z-index: 10; /* сверху ???*/
 }
 
 .top_links a {
@@ -64,4 +65,17 @@ body {
 	border: none;
 	background-color: transparent;
 	font-size: 26px;
+}
+
+.logo {
+	display: block; /* ??? */
+	padding: 15px 0;
+	color: #fff;
+	font-family: "NautilusPompiliusRegular";
+	text-align: center;
+	font-size: 42px;
+}
+
+.top_header {
+	background-color: #4aaad2;
 }

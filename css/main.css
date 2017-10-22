@@ -116,10 +116,49 @@ body {
 	display: inline-block;
 }
 
+.main_menu ul {
+	z-index: 12;
+}
+
 .top_contacts {
 	float: right;
 	font-size: 32px;
 	padding: 0 15px;
 	background-color: #2787af;
 	line-height: 53px;
+}
+
+h1 {
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "RobotoRegular";
+}
+
+.slider_container img {
+	max-width: 100%;
+}
+
+.slider_container {
+	position: relative; /* что это */
+}
+
+.next_button, .prev_button {
+	color: #fff;
+	font-size: 46px;
+	position: absolute; /* что дает */
+	z-index: 10;
+	cursor: pointer;
+	top: 40%;
+	background-color: rgba(255, 255, 255, .5);
+	padding: 0 25px;
+	border-radius: 10em;
+}
+
+.next_button {
+	right: 20px; /* ??? */
+}
+
+.prev_button {
+	left: 20px; /* ??? */
 }

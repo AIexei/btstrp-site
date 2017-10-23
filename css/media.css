@@ -17,6 +17,16 @@
 	.main_menu ul li {
 		display: block;
 	}
+
+	.sell_right .button {
+		margin: 15px auto;
+		float: none;
+		max-width: 250px;
+	}
+
+	.sell_left {
+		text-align: center;
+	}
 }
 
 /* Small Devices, Tablets */

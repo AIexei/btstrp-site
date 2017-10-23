@@ -17,11 +17,11 @@
 
 body input:focus:required:invalid, 
 body textarea:focus:required:invalid {
-	
+	border: red 3px solid;
 }
 body input:required:valid,
 body textarea:required:valid {
-	
+	border: green 3px solid;
 }
 body {
 	font-family: "RobotoRegular", sans-serif;
@@ -117,7 +117,7 @@ body {
 }
 
 .main_menu ul {
-	z-index: 12;
+	z-index: 12;	
 }
 
 .top_contacts {
@@ -161,4 +161,61 @@ h1 {
 
 .prev_button {
 	left: 20px; /* ??? */
+}
+
+.order {
+	background-color: #eee;
+	padding: 25px 0;
+}
+
+.sell_left {
+	font-size: 22px;
+	padding-top: 5px;
+}
+
+.button {
+	display: block;
+	border: medium none; /* medium none */
+	background-color: #2bc6a4;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	text-align: center;
+} 
+
+.button:hover {
+	background-color: #4feac8;
+}
+
+.button:active {
+	background-color: #14af8d;
+}
+
+.sell_right .button {
+	float: right;
+}
+
+.hidden {
+	display: none;
+}
+
+.pop_form input[type=text] {
+	display: block;
+	width: 80%;
+	line-height: 24px;
+	margin: 0 auto 12px;
+	width: 90%;
+	border: #999 3px solid; 
+}
+
+.pop_form .button {
+	margin: 20px auto 0;
+}
+
+.pop_form h3 {
+	margin: 10px auto 15px;
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
 }

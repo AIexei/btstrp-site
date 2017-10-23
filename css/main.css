@@ -219,3 +219,27 @@ h1 {
 	font-weight: normal;
 	text-transform: uppercase;
 }
+
+.blog_item img {
+	max-width: 100%;
+	margin-bottom: 20px; 
+}
+
+.blog_item h3 {
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.blog_item h3 a {
+	text-decoration: underline;
+}
+
+.blog_item p {
+	margin-top: 0;
+}
+
+.right_aside {
+	padding: 15px 20px;
+	background-color: #eeeeee;
+	margin-top: 30px;
+}
